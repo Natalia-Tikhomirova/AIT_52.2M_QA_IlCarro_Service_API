@@ -1,4 +1,4 @@
-package phonebook.dto;
+package ilcarro.dto;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -10,5 +10,5 @@ import lombok.ToString;
 @ToString
 @Builder
 public class AuthResponseDto {
-    private String token;
+    private String accessToken;
 }
